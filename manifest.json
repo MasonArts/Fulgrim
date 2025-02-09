@@ -1,0 +1,13 @@
+{
+  "name": "Fulgrim News Rating/Bias",
+  "description": "Search for Rating/Bias in the news you are looking at",
+  "version": "2.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "notifications"  // Add notifications permission
+  ]
+}
