@@ -7,7 +7,6 @@
     "service_worker": "background.js"
   },
   "permissions": [
-    "activeTab",
-    "notifications"  // Add notifications permission
-  ]
+    "activeTab",   // Allows access to the active tab
+    "notifications"  // Allows the extension to show notifications
 }
