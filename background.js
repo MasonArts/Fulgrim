@@ -1,4 +1,6 @@
 // Mapping of keywords to their corresponding messages
+const keyword = { BBC, FOX, CNN, Reunters
+                };
 const keywordMessages = {
   "BBC": "You are visiting a BBC site!",
   "FOX": "You are visiting a FOX site!",
